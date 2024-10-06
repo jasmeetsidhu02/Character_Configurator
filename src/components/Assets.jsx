@@ -19,7 +19,7 @@ const Assets = ({ url, skeleton }) => {
     <>
       {attachedItems.map((item, index) => (
         <skinnedMesh
-        castShadow
+      
           key={index}
           skeleton={skeleton}
           geometry={item.geometry}
